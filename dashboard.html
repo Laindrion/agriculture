@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>International Forum</title>
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body class="dashboard__body">
+    <div class="dashboard__wrapper">
+        <aside class="sidebar">
+            <div class="sidebar__wrapper">
+                <div class="logo">
+                    <img src="images/logo.png" alt="">
+                </div>
+                <a class="sidebar__btn" id="show-members" href="#">
+                    Members
+                </a>
+            </div>
+        </aside>
+<main class="main dashboard">
+    <section class="dashboard__header">
+        <div class="dashboard__header-wrapper">
+            <h3 class="dashboard__header-title">
+                Members
+            </h3>
+            <div class="dashboard__btn-cover">
+                <a class="dashboard__btn add__admin" id="add-admin" href="#">
+                    Add additional administrator
+                </a>
+                <a class="dashboard__btn add__members" id="add-members" href="#">
+                    Add member
+                </a>
+                <a class="dashboard__logout" href="#">
+                    <img src="../images/log-out.svg" alt="log out">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="dashboard__content">
+        <div class="dashboard__content-cover">
+            <div class="dashboard__content-header">
+                <h3 class="dashboard__content-title">
+                    Сортировка
+                </h3>
+
+                <select class="dashboard__content-status" name="" id="status-select">
+                    <option value="1">Статус</option>
+                    <option value="2">true</option>
+                    <option value="3">false</option>
+                </select>
+            </div>
+
+            <table class="dashboard__table">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Name</th>
+                        <th>Surname</th>
+                        <th>Email</th>
+                        <th style="width:9%;">Phone number</th>
+                        <th>Date of birth</th>
+                        <th>Country</th>
+                        <th>Gender</th>
+                        <th style="width:9%; text-align: left;">Organisation</th>
+                        <th style="width:9%; text-align: left;">Position</th>
+                        <th>Photo</th>
+                        <th>Passport</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <input type="checkbox" name="" class="check_box">
+                        </td>
+                        <td>
+                            Diyor
+                        </td>
+                        <td>
+                            Lain
+                        </td>
+                        <td>
+                            diyorlain@gmail.com
+                        </td>
+                        <td>
+                            +998 99 999 99 99
+                        </td>
+                        <td>
+                            01.01.2004
+                        </td>
+                        <td>
+                            Uzbekistan
+                        </td>
+                        <td>
+                            Male
+                        </td>
+                        <td>
+                            Ministry of Investment and Foreign Trade
+                        </td>
+                        <td>
+                            Minister (Head of delegation)
+                        </td>
+                        <td>
+                            <span class="dashboard__table-photo">
+                                <img src="../images/table-photo.svg" alt="">
+                            </span>
+                        </td>
+                        <td>
+                            <span class="dashboard__table-photo">
+                                <img src="../images/table-photo.svg" alt="">
+                            </span>
+                        </td>
+                        <td>
+                            <span class="dashboard__table-status waiting">
+                                Under consideration
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox" name="" class="check_box">
+                        </td>
+                        <td>
+                            Diyor
+                        </td>
+                        <td>
+                            Lain
+                        </td>
+                        <td>
+                            diyorlain@gmail.com
+                        </td>
+                        <td>
+                            +998 99 999 99 99
+                        </td>
+                        <td>
+                            01.01.2004
+                        </td>
+                        <td>
+                            Uzbekistan
+                        </td>
+                        <td>
+                            Male
+                        </td>
+                        <td>
+                            Ministry of Investment and Foreign Trade
+                        </td>
+                        <td>
+                            Minister (Head of delegation)
+                        </td>
+                        <td>
+                            <span class="dashboard__table-photo">
+                                <img src="../images/table-photo.svg" alt="">
+                            </span>
+                        </td>
+                        <td>
+                            <span class="dashboard__table-photo">
+                                <img src="../images/table-photo.svg" alt="">
+                            </span>
+                        </td>
+                        <td>
+                            <span class="dashboard__table-status denied">
+                                Application rejection
+                            </span>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="dashboard__table-btn__cover" id="dashboard__table-btn__cover">
+            <a class="dashboard__table-btn refuse" href="#">
+                Refuse
+            </a>
+            <a class="dashboard__table-btn accept" href="#">
+                Accept
+            </a>
+        </div>
+    </section>
+</main>
+
+</div>
+
+<script src="js/main.min.js"></script>
+
+</body>
+
+
+
+</html>
